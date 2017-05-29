@@ -1,0 +1,75 @@
+.logoRight strong {
+    color: #f00;
+    font-size: 2.2rem;
+}
+.font1 {
+	font-size:30px;
+	font-family:"黑体";
+}
+.font2 {
+	font-size:40px;
+	font-family:"楷体";
+	color:red;	
+}
+.title {
+	background:#3C5CA5;
+	color:white;
+	line-height:40px;
+	font-weight:bold;
+}
+.content {
+	border:1px solid #C0C0C0;
+	padding:10px;
+}
+.anniu {
+	border:1px solid #C0C0C0;
+	padding:10px;
+}
+.jieshao {
+	margin-left:10px;
+	margin-right:-10px;
+}
+.lianxi {
+	margin-left:20px;
+	margin-right:-20px;
+}
+.touxiang {
+	padding:10px;
+}
+
+.wenzi {
+	padding:10px;
+	font-size:16px;
+}
+
+.phone {
+	font-size:25px;
+	font-weight:bold;
+	color:red;
+}
+
+.friendlink {
+  padding-top:30px;
+  font-size:16px;
+}
+.msg{
+	padding-left:100px;
+}
+.msg_title {
+	color:#2460B7;
+	font-size:18px;
+	padding-left:120px;
+	line-height:30px;
+	font-weight:bold;
+}
+.msg_phone {
+	width:350px;
+}
+
+.top5 {
+	padding-top:5px;
+}
+
+.left130 {
+	padding-left:130px;
+}

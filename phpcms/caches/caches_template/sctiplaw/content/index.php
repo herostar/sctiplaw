@@ -1,0 +1,121 @@
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title><?php if(isset($SEO['title']) && !empty($SEO['title'])) { ?><?php echo $SEO['title'];?><?php } ?><?php echo $SEO['site_title'];?></title>
+<meta name="keywords" content="<?php echo $SEO['keyword'];?>" />
+<meta name="description" content="<?php echo $SEO['description'];?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<!-- basic styles -->
+<link href="<?php echo CSS_PATH;?>bootstrap.min.css" rel="stylesheet" />
+<link href="<?php echo CSS_PATH;?>sct.css" rel="stylesheet" />
+</head>
+<body>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7">
+         <img src="<?php echo IMG_PATH;?>sctiplaw/logo.gif" class="img-responsive" alt="史成涛律师">
+        </div>
+        <div class="col-sm-5">
+         <p class="logoRight">
+			<strong>联系电话: 158 524 98459</strong>
+			<br>
+			Email:
+			<a href="mailto:sct760813@163.com">sct760813@163.com</a>
+			   QQ: 1816303650
+		</p>
+        </div>
+    </div> 
+	<div class="row" >
+	   <div class="col-sm-12" >
+	   <nav class="navbar navbar-inverse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="http://chengtao/ace/sct_shouye.html">网站首页</a></li>
+					<li><a href="http://chengtao/ace/sct_jianjie.html">律师简介</a></li>
+					<li><a href="#">服务范围</a></li>
+					<li><a href="#">律师文集</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+		</nav>
+		</div>
+	</div>
+	<div class="row" >
+	    <div class="col-sm-12" >
+		   <p class="text-center text-primary font1" >诚信  严谨  专业  包容</p>
+		   <p class="text-center font2" >专业为您解决法律难题</p>
+		</div>
+	</div>
+	
+	 <div class="row">
+	    <div class="col-sm-3 liuyan">
+            <div class="row">
+                <div class="col-sm-12 title">
+                    留言咨询
+                </div>             
+            </div>
+            <div class="row">
+                <div class="col-sm-12 content" >
+                    <textarea cols="35" rows="12" >
+					</textarea>
+					<br/>
+				   <button type="button" class="btn btn-info">信息按钮</button>
+				   <button type="button" class="btn btn-default">默认按钮</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5 jieshao" >
+            <div class="row">
+                <div class="col-sm-12 title">
+                    律师介绍
+                </div>             
+            </div>
+            <div class="row content">
+               <div class="col-sm-5 touxiang">
+                     <img src="<?php echo IMG_PATH;?>sctiplaw/touxiang1.jpg" class="img-responsive" alt="史成涛律师">
+               </div>  
+				<div class="col-sm-7 wenzi">
+                   <strong>史成涛:专职律师、全国专利代理人</strong><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;毕业于南京师范大学，有法律、理工、中文三种学科背景，能够发挥技术和法律的双重优势。
+				   同时持有律师执业证和专利代理人执业证。史律师执业近十年，专利代理人从业六年，在专利诉讼与非诉讼业务方面有独到优势。能够以律师和专利代理人的双重身份为您的诉讼，特别是专利侵权，专利无无效诉讼提供专家级服务。
+                </div>  
+            </div>
+        </div>
+        
+		 <div class="col-sm-4 lianxi" >
+            <div class="row">
+                <div class="col-sm-12 title">
+                    联系方式
+                </div>             
+            </div>
+            <div class="row content">
+			   <div class="col-sm-12">
+			        <strong>律师电话：<h4 class="phone" >158 524 98459</h4> </strong><br/><br/>
+				   律师微博：http://blog.sina.com.cn/u/5910149624<br/><br/>
+				   <strong>律师邮箱：sct760813@163.com</strong><br/><br/>
+				   律师地址：江苏省徐州市云龙区复兴南路128号<br/><br/>
+				   <strong>QQ:1816303650</strong><br/><br/><br/>
+			   </div>
+             
+            </div>
+        </div>
+    </div>
+	<div class="row friendlink" >
+	    <div class="col-sm-12" >
+		友情链接：&nbsp;<a href="http://blog.sina.com.cn/u/5910149624" target="_blank">史成涛新浪博客</a>
+
+
+		</div>
+	</div>	
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

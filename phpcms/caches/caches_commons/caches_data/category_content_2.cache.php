@@ -1,0 +1,37 @@
+<?php
+return array (
+  1 => 
+  array (
+    'catid' => '1',
+    'siteid' => '2',
+    'type' => '0',
+    'modelid' => '12',
+    'parentid' => '0',
+    'arrparentid' => '0',
+    'child' => '0',
+    'arrchildid' => '1',
+    'catname' => '律师简介',
+    'style' => '',
+    'image' => '',
+    'description' => '',
+    'parentdir' => '',
+    'catdir' => 'jianjie',
+    'url' => 'http://www.sctiplaw.com/html/jianjie/',
+    'items' => '0',
+    'hits' => '0',
+    'setting' => '{"workflowid":"","ishtml":"1","content_ishtml":"1","create_to_html_root":"0","template_list":"sctiplaw","category_template":"category","list_template":"","show_template":"","meta_title":"","meta_keywords":"","meta_description":"","presentpoint":"1","defaultchargepoint":"0","paytype":"0","repeatchargedays":"1","category_ruleid":"1","show_ruleid":"11"}',
+    'listorder' => '1',
+    'ismenu' => '1',
+    'sethtml' => '0',
+    'letter' => 'lvshijianjie',
+    'usable_type' => '',
+    'create_to_html_root' => '0',
+    'ishtml' => '1',
+    'content_ishtml' => '1',
+    'category_ruleid' => '1',
+    'show_ruleid' => '11',
+    'workflowid' => '',
+    'isdomain' => '0',
+  ),
+);
+?>

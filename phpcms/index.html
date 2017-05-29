@@ -1,201 +1,121 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta charset="utf-8" />
 <title>PHPCMS演示站</title>
-<meta name="keywords" content="PHPCMS演示站">
-<meta name="description" content="PHPCMS演示站">
-<link href="http://phpcms/statics/css/reset.css" rel="stylesheet" type="text/css" />
-<link href="http://phpcms/statics/css/default_blue.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://phpcms/statics/js/jquery.min.js"></script>
-<script type="text/javascript" src="http://phpcms/statics/js/jquery.sgallery.js"></script>
-<script type="text/javascript" src="http://phpcms/statics/js/search_common.js"></script>
+<meta name="keywords" content="PHPCMS演示站" />
+<meta name="description" content="PHPCMS演示站" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<!-- basic styles -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<link href="assets/css/sct.css" rel="stylesheet" />
 </head>
 <body>
-<div class="body-top">
-    <div class="content">
-        		<div id="announ">
-                 <ul>
-                                  </ul>
-            </div>
-     	 <script type="text/javascript">
-$(function(){
-	startmarquee('announ',22,1,500,3000);
-})
-</script>
-            <div class="login lh24 blue"><a href="http://phpcms/index.php?m=content&c=rss&siteid=1" class="rss ib">rss</a><span class="rt"><script type="text/javascript">document.write('<iframe src="http://phpcms/index.php?m=member&c=index&a=mini&forward='+encodeURIComponent(location.href)+'&siteid=1" allowTransparency="true"  width="500" height="24" frameborder="0" scrolling="no"></iframe>')</script></span></div>
-    </div>
-</div>
-<div class="header">
-	<div class="logo"><a href="http://phpcms/"><img src="http://phpcms/statics/images/v9/logo.jpg" /></a></div>
 
-    <div class="search">
-    	<div class="tab" id="search">
-																<a href="javascript:;" onclick="setmodel(1, $(this));" style="outline:medium none;" hidefocus="true"  class="on" >新闻</a><span> | </span>										<a href="javascript:;" onclick="setmodel(3, $(this));" style="outline:medium none;" hidefocus="true" >图片</a><span> | </span>										<a href="javascript:;" onclick="setmodel(2, $(this));" style="outline:medium none;" hidefocus="true" >下载</a><span> | </span>										<a href="javascript:;" onclick="setmodel(52, $(this));" style="outline:medium none;" hidefocus="true" >专题</a>								</div>
 
-        <div class="bd">
-            <form action="http://phpcms/index.php" method="get" target="_blank">
-				<input type="hidden" name="m" value="search"/>
-				<input type="hidden" name="c" value="index"/>
-				<input type="hidden" name="a" value="init"/>
-				<input type="hidden" name="typeid" value="1" id="typeid"/>
-				<input type="hidden" name="siteid" value="1" id="siteid"/>
-                <input type="text" class="text" name="q" id="q"/><input type="submit" value="搜 索" class="button" />
-            </form>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7">
+         <img src="assets/images/logo.gif" class="img-responsive" alt="史成涛律师">
         </div>
-    </div>
-
-    <div class="banner"><script language="javascript" src="http://phpcms/index.php?m=poster&c=index&a=show_poster&id=1"></script></div>
-    <div class="bk3"></div>
-    <div class="nav-bar">
-    	<map>
-    	        	<ul class="nav-site">
-			<li><a href="http://phpcms"><span>首页</span></a></li>
-						<li class="line">|</li>
-			<li><a href="http://phpcms"><span>国内</span></a></li>
-						<li class="line">|</li>
-			<li><a href="http://phpcms"><span>下载</span></a></li>
-						<li class="line">|</li>
-			<li><a href="http://phpcms"><span>图片</span></a></li>
-			            </ul>
-        		        </map>
+        <div class="col-sm-5">
+         <p class="logoRight">
+			<strong>联系电话: 158 524 98459</strong>
+			<br>
+			Email:
+			<a href="mailto:sct760813@163.com">sct760813@163.com</a>
+			   QQ: 1816303650
+		</p>
+        </div>
     </div> 
-	
+	<div class="row" >
+	   <div class="col-sm-12" >
+	   <nav class="navbar navbar-inverse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="http://chengtao/ace/sct_shouye.html">网站首页</a></li>
+					<li><a href="http://chengtao/ace/sct_jianjie.html">律师简介</a></li>
+					<li><a href="#">服务范围</a></li>
+					<li><a href="#">律师文集</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+		</nav>
+		</div>
 	</div>
-</div><!--main-->
-<div class="main">
-	<div class="col-left">
-    	<div class="news-hot">
-        	<div class="content">
-        	        	   
-                
+	<div class="row" >
+	    <div class="col-sm-12" >
+		   <p class="text-center text-primary font1" >诚信  严谨  专业  包容</p>
+		   <p class="text-center font2" >专业为您解决法律难题</p>
+		</div>
+	</div>
+	
+	 <div class="row">
+	    <div class="col-sm-3 liuyan">
+            <div class="row">
+                <div class="col-sm-12 title">
+                    留言咨询
+                </div>             
             </div>
-        </div>
-        <div class="slide">
-            <div class="FocusPic">
-                        	<div class="content" id="main-slide">
-                    <div class="changeDiv">  
-                                        </div>
+            <div class="row">
+                <div class="col-sm-12 content" >
+                    <textarea cols="35" rows="12" >
+					</textarea>
+					<br/>
+				   <button type="button" class="btn btn-info">信息按钮</button>
+				   <button type="button" class="btn btn-default">默认按钮</button>
                 </div>
-                        </div>
-            <div class="bk10"></div>
-        	<div class="box extend">
-            	<div class="col-left">争议</div>
-                <div class="col-auto">
-								</div>
-                <script language="javascript" src="http://phpcms/caches/poster_js/10.js"></script>
             </div>
         </div>
-        <div class="bk10"></div>
-        <div class="box">
-        		<h5>图片新闻</h5>
-                      <ul class="content news-photo picbig">
-                         </ul>
-                    </div>
-        <div class="bk10"></div>
-                        <div class="box cat-area" style=" margin-right:10px">
-        		<h5 class="title-1">国内<a href="http://phpcms" class="more">更多>></a></h5>
-             <div class="content">
-                                                        
-                <div class="bk15 hr"></div>
-                
-                <ul class="list lh24 f14">
-                                </ul>
-                            </div>
-        </div>
-        		                <div class="box cat-area" >
-        		<h5 class="title-1">下载<a href="http://phpcms" class="more">更多>></a></h5>
-             <div class="content">
-                                                        
-                <div class="bk15 hr"></div>
-                
-                <ul class="list lh24 f14">
-                                </ul>
-                            </div>
-        </div>
-        <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
-        		<h5 class="title-1">图片<a href="http://phpcms" class="more">更多>></a></h5>
-             <div class="content">
-                                                        
-                <div class="bk15 hr"></div>
-                
-                <ul class="list lh24 f14">
-                                </ul>
-                            </div>
-        </div>
-        		    </div>
-    <div class="col-auto">
-    	<div class="box">
-        	 <h5 class="title-2">公告<a href="" class="more">&nbsp;</a></h5>
-             <div class="content">
-                                <ul class="list lh24 f14">
-                                   </ul>
-                            </div>
-        </div>
-        <div class="bk10"></div>
-        <div class="box">
-        	<h5 class="title-2">专题<a href="http://phpcms/index.php?m=special&c=index&a=special&siteid=1" class="more">更多>></a></h5>
-            <div class="content special">
-                                                </div>
-        </div>
-        <div class="bk10"></div>
-        <div class="box">
-            <h5 class="title-2"><span class="rt fn f12 tab SwapTab"><span class="fb">热点</span> | <span >评论</span> | <span>关注</span></span>排行</h5>
-            <div class="tab-content">
-            <ul class="content digg">
-										            </ul>
-            <ul class="content digg hidden">
-										            </ul>
-            <ul class="content digg hidden">
-										            </ul>
+        <div class="col-sm-5 jieshao" >
+            <div class="row">
+                <div class="col-sm-12 title">
+                    律师介绍
+                </div>             
             </div>
-        </div><div class="bk10"></div>
-        <div class="box">
-            <h5 class="title-2">调查问卷<a href="http://phpcms/index.php?m=vote&c=index&siteid=1" class="more">更多>></a></h5>
- 
-<script language="javascript" src="http://phpcms/index.php?m=vote&c=index&a=show&action=js&subjectid=1&type=3"></script>
+            <div class="row content">
+               <div class="col-sm-5 touxiang">
+                     <img src="assets/images/touxiang1.jpg" class="img-responsive" alt="史成涛律师">
+               </div>  
+				<div class="col-sm-7 wenzi">
+                   <strong>史成涛:专职律师、全国专利代理人</strong><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;毕业于南京师范大学，有法律、理工、中文三种学科背景，能够发挥技术和法律的双重优势。
+				   同时持有律师执业证和专利代理人执业证。史律师执业近十年，专利代理人从业六年，在专利诉讼与非诉讼业务方面有独到优势。能够以律师和专利代理人的双重身份为您的诉讼，特别是专利侵权，专利无无效诉讼提供专家级服务。
+                </div>  
+            </div>
+        </div>
+        
+		 <div class="col-sm-4 lianxi" >
+            <div class="row">
+                <div class="col-sm-12 title">
+                    联系方式
+                </div>             
+            </div>
+            <div class="row content">
+			   <div class="col-sm-12">
+			        <strong>律师电话：<h4 class="phone" >158 524 98459</h4> </strong><br/><br/>
+				   律师微博：http://blog.sina.com.cn/u/5910149624<br/><br/>
+				   <strong>律师邮箱：sct760813@163.com</strong><br/><br/>
+				   律师地址：江苏省徐州市云龙区复兴南路128号<br/><br/>
+				   <strong>QQ:1816303650</strong><br/><br/><br/>
+			   </div>
+             
+            </div>
         </div>
     </div>
-    <div class="bk10"></div>
-	
-	<div class="box blogroll ylink">
-    	<h5><a href="http://phpcms/index.php?m=link&siteid=1" hidefocus="true" class="rt">更多>></a>友情链接<a href="http://phpcms/index.php?m=link&c=index&a=register&siteid=1" class="red">申请链接</a></h5>
-        <div class="bk10"></div>
-	<ul class="colli imgul">
-                        <li><a href="http://www.phpcms.cn" title="PHPCMS" target="_blank"><img src="http://www.phpcms.cn/images/logo_88_31.gif" width="88" height="31" /></a></li>
-                <li><a href="http://www.sdo.com" title="盛大在线" target="_blank"><img src="http://www.snda.com/cn/logo/comp_logo_sdo.gif" width="88" height="31" /></a></li>
-                    </ul>
-          <div class="bk10"></div>
-	<div class="linka">
-		 	</div>
-	</div>
+	<div class="row friendlink" >
+	    <div class="col-sm-12" >
+		友情链接：&nbsp;<a href="http://blog.sina.com.cn/u/5910149624" target="_blank">史成涛新浪博客</a>
+
+
+		</div>
+	</div>	
 </div>
-<script type="text/javascript"> 
-$(function(){
-	new slide("#main-slide","cur",310,260,1);//焦点图
-	new SwapTab(".SwapTab","span",".tab-content","ul","fb");//排行TAB
-})
-</script>
-<div class="footer">
-<p class="info">
-<a href="http://phpcms/html/about/aboutus/" target="_blank">关于我们</a> |  
-<a href="http://phpcms/html/about/contactus/" target="_blank">联系方式</a> |  
-<a href="http://test.phpcms.cn/index.php?m=content&c=index&a=lists&catid=4" target="_blank">版权声明</a> |  
-<a href="http://phpcms/html/about/hr/" target="_blank">招聘信息</a> |  
-<a href="http://phpcms/index.php?m=link" target="_blank">友情链接</a>
-<br />
-Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS</a></strong> <em>V9.6.3</em> &copy; 2017 <img src="http://phpcms/statics/images/copyright.gif"/></p>
-</div>
-<script type="text/javascript">
-$(function(){
-	$(".picbig").each(function(i){
-		var cur = $(this).find('.img-wrap').eq(0);
-		var w = cur.width();
-		var h = cur.height();
-	   $(this).find('.img-wrap img').LoadImage(true, w, h,'http://phpcms/statics/images/msg_img/loading.gif');
-	});
-})
-</script>
+
+
+
+
+
+
+
 </body>
 </html>
